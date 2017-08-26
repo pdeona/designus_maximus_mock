@@ -11,9 +11,11 @@ body {
 	display: inline-block;
 	position: fixed;
 	padding-left: 31.25em;
+
 }
 
 iframe {
+	z-index: 1;
 	border: 0;
 }
 
@@ -44,6 +46,7 @@ iframe {
 	padding-left: 31.25em;
 	padding-top: 18.125em;
 	margin: 1.25em;
+	z-index: -1;
 }
 
 .sweet-typeface {
@@ -53,6 +56,7 @@ iframe {
 	display: inline-block;
 	padding-left: 57.5em;
 	margin: 1.25em;
+	z-index: -1;
 }
 
 .defeated {
@@ -63,6 +67,7 @@ iframe {
 	padding-top: 35.625em;
 	padding-left: 57.5em;
 	margin: 1.25em;
+	z-index: -1;
 }
 
 img {
