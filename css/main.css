@@ -1,14 +1,7 @@
 body {
-	background-image: url("/../assets/grey-yellow-gradient.jpg");
+	background-image: url("../assets/grey-yellow-gradient.jpg");
 	background-size: cover;
-	text-anchor: center;
-}
-
-.content-container {
-	display: block;
-	position: fixed;
-	max-height: 100%;
-	max-width: 100%;
+	align-content: center;
 }
 
 .video-box {
@@ -18,6 +11,10 @@ body {
 	display: inline-block;
 	position: fixed;
 	padding-left: 31.25em;
+}
+
+iframe {
+	border: 0;
 }
 
 .player-portrait {
@@ -56,7 +53,6 @@ body {
 	display: inline-block;
 	padding-left: 57.5em;
 	margin: 1.25em;
-	text-anchor: right;
 }
 
 .defeated {
