@@ -1,15 +1,14 @@
+body {
+	background-image: url("/../assets/grey-yellow-gradient.jpg");
+	background-size: cover;
+	text-anchor: center;
+}
+
 .content-container {
 	display: block;
 	position: fixed;
 	max-height: 100%;
 	max-width: 100%;
-	background-size: cover;
-	background-origin: border-box;
-}
-
-#background {
-	background-origin: border;
-	background-size: cover;
 }
 
 .video-box {
@@ -22,9 +21,8 @@
 }
 
 .player-portrait {
-	box-sizing: content-box;
 	height: 18.75em;
-	width: 23.75em;
+	width: 25em;
 	display: inline-block;
 	position: fixed;
 	margin: 1.25em;
@@ -39,7 +37,6 @@
 	display: inline-block;
 	margin: 1.25em;
 	padding-left: 5em;
-	align-self: auto;
 }
 
 .world-domination-pane {
